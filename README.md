@@ -1,3 +1,3 @@
 # alarm-app
 
-<img src="[https://...](https://user-images.githubusercontent.com/71586417/178147848-5a262ce1-507f-4211-be56-af303625a9a8.png)" alt="..." width="250" />
+<img src="(https://drive.google.com/file/d/1pJLy1bZkbuZ13XvTNZ9mX6P44yZjnK0I/view?usp=sharing)" alt="..." width="250" />
