@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:padding="12dp"
+    android:layout_marginTop="12dp"
+    android:background="@drawable/bg_border"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/sub_top"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/ic_dot"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_dot"
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_alarm_item_repeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/ic_dot"
+            android:text="@string/weekdays" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/sub_top"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_alarm_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:textColor="@color/black"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/tv_alarm_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_alarm_item_time"
+            android:text="@string/label"
+            android:textColor="@color/black" />
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/tv_alarm_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/im_alarm_item_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/tv_alarm_item_am"
+                android:text="@string/am"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@+id/im_alarm_item_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <Switch
+            android:id="@+id/sw_alarm_item_active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:thumb="@drawable/thumb"
+            android:track="@drawable/track"
+            tools:ignore="UseSwitchCompatOrMaterialXml"
+            />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Alarm</string>
+    <string name="save">Save</string>
+    <string name="repeat">Repeat</string>
+    <string name="weekdays">Weekdays</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="alarm_title">Alarm title</string>
+    <string name="alarm_sound">Alarm sound</string>
+    <string name="alarm_volume">Alarm volume</string>
+    <string name="alarm_with_vibration">Alarm with vibration</string>
+    <string name="meme">Dậy đi ông cháu ơi</string>
+    <string name="time">06:30 AM</string>
+    <string name="label">Label</string>
+    <string name="am">AM</string>
+</resources>

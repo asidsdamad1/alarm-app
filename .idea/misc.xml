@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable-v24/ic_alarm_black_24dp.xml" value="0.1125" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.199" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/bg_border.xml" value="0.199" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/bg_header.xml" value="0.199" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/btn_border.xml" value="0.158" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/custom_color_tonggle_button.xml" value="0.167" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/custom_edt.xml" value="0.1855" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/custom_toggle_button.xml" value="0.1855" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/custome_seekbar.xml" value="0.2585" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/ic_add_white.xml" value="0.169" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/ic_alarm_512.xml" value="0.1" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.199" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/ic_cloud_32.xml" value="0.2595" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/ic_dot.xml" value="0.199" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/ic_launcher_background.xml" value="0.199" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/ic_menu_32.xml" value="0.199" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/ic_menu_48.xml" value="0.199" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/menu_navy.xml" value="0.199" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/progress_seekbar.xml" value="0.2585" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/shadow_seekbar.xml" value="0.2585" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/swich_thumb_true.xml" value="0.2" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/switch_thumb_false.xml" value="0.2" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/thumb.xml" value="0.2" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/thumb_seekbar.xml" value="0.2595" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/toggle_state_off.xml" value="0.1855" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/toggle_state_on.xml" value="0.1855" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/drawable/track.xml" value="0.2" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/layout/activity_alarm_edit.xml" value="0.264" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/layout/activity_ring.xml" value="0.264" />
+        <entry key="..\:/Users/SVMC/AndroidStudioProjects/Alarm/app/src/main/res/layout/item_alarm.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light_gray"
+    tools:context=".AlarmEditActivity">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:paddingHorizontal="12dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/btn_exit"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:foregroundGravity="center"
+            android:onClick="handleExit"
+            android:src="@drawable/ic_exit_32" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_border"
+            android:backgroundTint="@color/navy"
+            android:foregroundGravity="center"
+            android:onClick="handleSave"
+            android:text="@string/save"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/rlt_alarm_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_marginHorizontal="24dp"
+        android:orientation="vertical">
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_border"
+            android:timePickerMode="spinner" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="@string/repeat"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:text="@string/weekdays"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="7">
+
+            <ToggleButton
+                android:id="@+id/btn_Mon"
+                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:layout_marginEnd="7dp"
+                android:textOn="@string/mon"
+                android:textOff="@string/mon"
+                android:background="@drawable/custom_toggle_button"
+                android:textColor="@drawable/custom_color_tonggle_button"/>
+
+            <ToggleButton
+                android:id="@+id/btn_Tue"
+                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:layout_marginEnd="7dp"
+                android:textOn="@string/tue"
+                android:textOff="@string/tue"
+                android:background="@drawable/custom_toggle_button"
+                android:textColor="@drawable/custom_color_tonggle_button"/>
+
+            <ToggleButton
+                android:id="@+id/btn_Web"
+                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:layout_marginEnd="7dp"
+                android:textOn="@string/wed"
+                android:textOff="@string/wed"
+                android:background="@drawable/custom_toggle_button"
+                android:textColor="@drawable/custom_color_tonggle_button"/>
+
+            <ToggleButton
+                android:id="@+id/btn_Thu"
+                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:layout_marginEnd="7dp"
+                android:textOn="@string/thu"
+                android:textOff="@string/thu"
+                android:background="@drawable/custom_toggle_button"
+                android:textColor="@drawable/custom_color_tonggle_button"/>
+
+            <ToggleButton
+                android:id="@+id/btn_Fri"
+                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:layout_marginEnd="7dp"
+                android:textOn="@string/fri"
+                android:textOff="@string/fri"
+                android:background="@drawable/custom_toggle_button"
+                android:textColor="@drawable/custom_color_tonggle_button"/>
+
+            <ToggleButton
+                android:id="@+id/btn_Sat"
+                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:layout_marginEnd="7dp"
+                android:textOn="@string/sat"
+                android:textOff="@string/sat"
+                android:background="@drawable/custom_toggle_button"
+                android:textColor="@drawable/custom_color_tonggle_button"/>
+
+            <ToggleButton
+                android:id="@+id/btn_Sun"
+                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textOn="@string/sun"
+                android:textOff="@string/sun"
+                android:background="@drawable/custom_toggle_button"
+                android:textColor="@drawable/custom_color_tonggle_button"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlt_alarm_set"
+        android:layout_alignParentBottom="true"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tv_alarm_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:paddingBottom="5dp"
+            android:text="@string/alarm_title" />
+
+        <EditText
+            android:id="@+id/edt_alarm_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_alarm_label"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/custom_edt"
+            android:text="@string/alarm_title"
+            android:hint="@string/alarm_title"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_alarm_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_alarm_title"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/alarm_sound"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_select_alarm_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_alarm_title"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="6dp"
+            android:text="@string/alarm_sound" />
+
+        <TextView
+            android:id="@+id/tv_alarm_volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_alarm_sound"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/alarm_volume"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <SeekBar
+            android:id="@+id/sb_volume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_alarm_volume"
+            android:layout_marginBottom="24dp"
+            android:progressTint="@color/navy"
+            android:thumb="@drawable/thumb_seekbar" />
+
+        <TextView
+            android:id="@+id/tv_alarm_vibration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sb_volume"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/alarm_with_vibration"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Switch
+            android:id="@+id/sw_alarm_vibration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sb_volume"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/tv_alarm_vibration"
+            android:thumb="@drawable/thumb"
+            android:track="@drawable/track"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </RelativeLayout>
+</RelativeLayout>
