@@ -1,3 +1,5 @@
 # alarm-app
 
-<img src="(https://drive.google.com/file/d/1pJLy1bZkbuZ13XvTNZ9mX6P44yZjnK0I/view?usp=sharing)" alt="..." width="250" />
+
+
+<img src="https://user-images.githubusercontent.com/71586417/178148040-911fb6ae-19d3-403c-a255-30ce8ce1fdac.png" alt="React Native Expo Examples" />
