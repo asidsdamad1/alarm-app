@@ -1,6 +1,8 @@
 # alarm-app
 Function: add (time, vibaration, volume, day), edit, delete, notification, alarm and 1 fun function (do the math before turning off).
+
 Database: Room.
+
 Link APK: https://drive.google.com/file/d/1tZjCo0A5rkh-GYVr6tNCBGBNv6MCz3lT/view?usp=sharing
 
 ###  1. Main Screen
